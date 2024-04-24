@@ -1,0 +1,101 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    margin: 10px;
+    font-size: 2rem;
+  }
+
+  img {
+    width: 30%;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  h2{
+    margin: 5px;
+    font-size: .5rem;
+  }
+}
+
+@media (max-width: 850px) {
+  
+  img {
+    width: 50%;
+  }
+
+}
+
+h2{
+  margin: 10px;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 1.5rem;
+  color: #4ECCA3;
+}
+
+.btn{
+
+  background-color: #4ECCA3;
+  padding: .5rem 1rem;
+  border-radius: .4rem;
+  border: none;
+  color: rgb(238, 238, 238);
+  font-weight: 600;
+  font-size: .96rem;
+}
+
+.btn:hover{
+
+  box-shadow: -1px 1px 10px gray;
+}
+
+.btn::before{
+  content: "Click Me🥺";
+}
+
+.btn:hover::before { 
+  content: "Click Me😜"; 
+}
+
+footer {
+  margin-top: 1rem;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
